@@ -59,11 +59,7 @@ pip install -c constraints.txt git+https://github.com/compphoto/Intrinsic.git
 ```
 
 Download [SAM ViT-H](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) to `Pipeline/checkpoints/`  
-(see `Pipeline/checkpoints/README.md`), or set:
-
-```bash
-export SAM_CHECKPOINT="/path/to/sam_vit_h_4b8939.pth"
-```
+(see `Pipeline/checkpoints/README.md`)
 
 ### Usage
 
