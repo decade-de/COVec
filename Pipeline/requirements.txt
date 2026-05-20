@@ -1,0 +1,2 @@
+# Convenience alias — see setup_single_env.sh for full install.
+-r requirements-base.txt

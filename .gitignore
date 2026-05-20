@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Pipeline outputs and build artifacts
+Pipeline/workdir/
+Pipeline/third_party/
+Pipeline/checkpoints/*.pth
+*.pkl
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Large model weights (Intrinsic stages, etc.)
+*.pt
+*.bin
+*.ckpt
